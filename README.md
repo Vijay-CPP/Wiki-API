@@ -13,13 +13,13 @@ Mongoose.
 
 #### Get all articles
 
-```http
+```https
   GET /articles
 ```
 
 #### Get specific item
 
-```http
+```https
   GET /articles/${article-name}
 ```
 
@@ -30,7 +30,7 @@ Mongoose.
 
 #### Post articles
 
-```http
+```https
   POST /articles
 ```
 
