@@ -145,8 +145,8 @@ app.listen(port, (req, res) => {
     console.log("Listening to port 3000");
 });
 
-var https = require("https");
-setInterval(function () {
-    https.get("https://wiki-api-vijay-cpp.herokuapp.com");
-}, 30000); // every 5 minutes (300000)
+// var https = require("https");
+// setInterval(function () {
+//     https.get("https://wiki-api-vijay-cpp.herokuapp.com");
+// }, 30000); // every 5 minutes (300000)
 
